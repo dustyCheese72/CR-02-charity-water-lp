@@ -235,10 +235,41 @@ section {
 
 /* This media query applies styles when the screen is 600px wide or less (like on most phones) */
 @media (max-width: 600px) {
+
+.top-header {
+  padding: 5px;
+}
+
+
+.logo {
+  height: 20px;
+}
+
+.tagline {
+  display: none;
+}
+
+.nav-links {
+  padding: 0px;
+}
+
+.nav-links li {
+  padding: 5px;
+
+}
+
+.search-container {
+  display: none;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+
   /* Make hero section padding smaller on small screens */
   .hero {
     padding: 32px 8px;
     font-size: 1em;
+    text-align: right;
   }
 
   /* Make headline font size smaller so it fits on small screens */
